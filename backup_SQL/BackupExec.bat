@@ -1,0 +1,1 @@
+SQLCMD -s .\192.168.1.5 -i D:\backup SQL\Backup.sql

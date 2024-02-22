@@ -1,0 +1,48 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# SQL Server Management Studio Solution File, Format Version 18.00
+VisualStudioVersion = 15.0.28307.421
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Queries", "Queries", "{EC8DEDA6-85AB-4FCC-B6A7-A037C6325B79}"
+	ProjectSection(SolutionItems) = preProject
+		..\Queries\ALTA_Especialidad.sql = ..\Queries\ALTA_Especialidad.sql
+		..\Queries\ALTA_Medico.sql = ..\Queries\ALTA_Medico.sql
+		..\Queries\ALTA_Paciente.sql = ..\Queries\ALTA_Paciente.sql
+		..\Queries\ALTA_Turnos.sql = ..\Queries\ALTA_Turnos.sql
+		..\..\backup_SQL\Backup.sql = ..\..\backup_SQL\Backup.sql
+		..\Queries\Comandos.sql = ..\Queries\Comandos.sql
+		..\Queries\DEL_Turno.sql = ..\Queries\DEL_Turno.sql
+		..\Queries\EstructurasControl.sql = ..\Queries\EstructurasControl.sql
+		Queriess\FCN_FechaTexto.sql = Queriess\FCN_FechaTexto.sql
+		..\Queries\Funciones.sql = ..\Queries\Funciones.sql
+		Queriess\JOB_CancelaTurnosVencidos.sql = Queriess\JOB_CancelaTurnosVencidos.sql
+		..\Queries\Joins.sql = ..\Queries\Joins.sql
+		..\Queries\SEL_EspecialidadesMedicas.sql = ..\Queries\SEL_EspecialidadesMedicas.sql
+		..\Queries\SEL_HistoriaPaciente.sql = ..\Queries\SEL_HistoriaPaciente.sql
+		..\Queries\SELECT_TurnosPaciente.sql = ..\Queries\SELECT_TurnosPaciente.sql
+		..\Queries\SP.sql = ..\Queries\SP.sql
+		..\Queries\TablasTemporales.sql = ..\Queries\TablasTemporales.sql
+		..\Queries\Transacciones.sql = ..\Queries\Transacciones.sql
+		Queriess\Triggers.sql = Queriess\Triggers.sql
+		..\Queries\UPD_Paciente.sql = ..\Queries\UPD_Paciente.sql
+		..\Queries\UPD_Turno.sql = ..\Queries\UPD_Turno.sql
+		..\Queries\Vistas.sql = ..\Queries\Vistas.sql
+	EndProjectSection
+EndProject
+Project("{4F2E2C19-372F-40D8-9FA7-9D2138C6997A}") = "Queriess", "Queriess\Queriess.ssmssqlproj", "{7A093282-3682-41BB-B359-26AE0AC858AF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Default|Default = Default|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A093282-3682-41BB-B359-26AE0AC858AF}.Default|Default.ActiveCfg = Default
+		{F5F73D59-7483-42A5-9F66-0EC3459BB97D}.Default|Default.ActiveCfg = Default
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B5AA897-924A-46D7-9869-F23BF8F12E23}
+	EndGlobalSection
+EndGlobal
